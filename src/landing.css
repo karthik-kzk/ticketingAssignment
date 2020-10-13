@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "a1 a1 a2 a2"
+      "a1 a1 a2 a2"
+      "a1 a1 a2 a2";
+  }
+  .a1 { grid-area: a1;
+    float: left;
+  width: 25%;
+  
+  
+  padding: 10px;}
+  .a2 { grid-area: a2; }
+  
